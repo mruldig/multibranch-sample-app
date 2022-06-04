@@ -1,5 +1,5 @@
 pipeline {
-#  kagent {label 'linux'}
+  kagent any
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
